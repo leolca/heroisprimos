@@ -1,9 +1,11 @@
 source "https://rubygems.org"
 
-# Use github-pages gem which pins all the correct versions for GitHub Pages
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 4.3"
+gem "jekyll-feed", "~> 0.17"
+gem "jekyll-paginate", "~> 1.1"
+gem "jekyll-sitemap", "~> 1.4"
+gem "jekyll-seo-tag", "~> 2.8"
 
-# Local development gems
 group :development do
   gem "webrick"
 end

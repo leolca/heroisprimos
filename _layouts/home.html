@@ -3,20 +3,51 @@ layout: default
 title: Home
 ---
 
-{% for post in paginator.posts %}
-  {% include featured-post.html %}
-{% endfor %}
-
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
-  {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
-  {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
-  {% endif %}
+<!-- HERO BANNER -->
+{% if page.hero_image %}
+<div class="hero-banner" style="background-image: url('{{ site.github.url }}/assets/img/{{ page.hero_image }}');">
+  <div class="hero-content">
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+    {% if page.hero_cta_text and page.hero_cta_url %}
+    <a href="{{ page.hero_cta_url }}" class="btn">{{ page.hero_cta_text }}</a>
+    {% endif %}
+  </div>
 </div>
+{% endif %}
+
+<!-- MAIN CONTENT -->
+<div class="home-content" markdown="1">
+{{ content }}
+</div>
+
+<!-- FEATURES / SECTIONS -->
+{% if page.features %}
+<div class="features-grid">
+  {% for feature in page.features %}
+  <article class="feature-card">
+    {% if feature.icon %}
+    <div class="feature-icon">
+      <i class="fa fa-{{ feature.icon }}" aria-hidden="true"></i>
+    </div>
+    {% endif %}
+    <h3>{{ feature.title }}</h3>
+    <p>{{ feature.description }}</p>
+    {% if feature.url %}
+    <a href="{{ feature.url }}" class="feature-link">Saiba mais <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- CTA SECTION -->
+{% if page.cta_title and page.cta_description %}
+<section class="cta-section">
+  <h2>{{ page.cta_title }}</h2>
+  <p>{{ page.cta_description }}</p>
+  {% if page.cta_button_text and page.cta_button_url %}
+  <a href="{{ page.cta_button_url }}" class="btn btn-primary">{{ page.cta_button_text }}</a>
+  {% endif %}
+</section>
+{% endif %}

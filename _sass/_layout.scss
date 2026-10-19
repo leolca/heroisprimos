@@ -268,23 +268,174 @@
   margin-top: 3rem;
 }
 
-.pagination-button {
-  padding: 0.5rem 1.5rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  text-decoration: none;
+/* Homepage Hero Banner */
+.hero-banner {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 3rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.hero-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0,0,0,0.7), rgba(0,0,0,0.4));
+  border-radius: 8px;
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  padding: 2rem;
+}
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+.hero-content .btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: white;
   color: $brand-color;
-  transition: all 0.2s;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+.hero-content .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  color: $brand-color;
 }
 
-.pagination-button:hover {
-  background: #f5f5f5;
+/* Home Content */
+.home-content {
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
 }
 
-.pagination-active {
+/* Features Grid */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto 4rem;
+  padding: 0 1rem;
+}
+.feature-card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  border-color: #ddd;
+}
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  background: linear-gradient(135deg, #f5f5f5, #eee);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: $brand-color;
+  transition: all 0.3s;
+}
+.feature-card:hover .feature-icon {
   background: $brand-color;
   color: white;
-  border-color: $brand-color;
+}
+.feature-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: $brand-color;
+}
+.feature-card p {
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+.feature-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: $brand-color;
+  font-weight: 600;
+  text-decoration: none;
+  transition: gap 0.2s;
+}
+.feature-link:hover {
+  gap: 0.8rem;
+}
+
+/* CTA Section */
+.cta-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #f8f8f8, #fff);
+  border-radius: 8px;
+  margin: 2rem auto 4rem;
+  max-width: 800px;
+  border: 1px solid #eee;
+}
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: $brand-color;
+}
+.cta-section p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta-section .btn-primary {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: $brand-color;
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+.cta-section .btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  background: #333;
+  color: white;
 }
 
 /* Footer */
@@ -346,11 +497,27 @@
     font-size: 2rem;
   }
   
-  .featured-post {
-    height: 200px;
+  .hero-banner {
+    height: 350px;
   }
   
-  .featured-post h2 span {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-content p {
     font-size: 1.2rem;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cta-section h2 {
+    font-size: 2rem;
+  }
+  
+  .cta-section p {
+    font-size: 1.1rem;
   }
 }
