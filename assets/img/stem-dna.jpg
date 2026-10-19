@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#fff3e0"/>
+  <text x="400" y="180" font-family="Roboto, sans-serif" font-size="24" fill="#e65100" text-anchor="middle">DNA</text>
+  <text x="400" y="220" font-family="Roboto, sans-serif" font-size="16" fill="#ff9800" text-anchor="middle">Biologia Molecular</text>
+  <text x="400" y="250" font-family="Source Code Pro, monospace" font-size="14" fill="#ffb74d" text-anchor="middle">stem-dna.jpg</text>
+</svg>
