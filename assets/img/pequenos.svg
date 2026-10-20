@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="345"
+   height="200"
+   viewBox="0 0 91.281248 52.916666"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="pequenos.svg"
+   inkscape:export-filename="pequenos.webp"
+   inkscape:export-xdpi="212.09"
+   inkscape:export-ydpi="212.09"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.3696316"
+     inkscape:cx="222.68763"
+     inkscape:cy="84.69431"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2551">
+      <path
+         d="M 720,520.34 H 5184 V 4162.75 H 720 Z"
+         id="path2549" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3">
+      <rect
+         style="fill:#1a1a1a;fill-opacity:0.828346;stroke-width:0.4"
+         id="rect4"
+         width="137"
+         height="200"
+         x="175.00481"
+         y="-18.00016"
+         ry="1.1574876" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       width="149.33336"
+       height="200"
+       preserveAspectRatio="none"
+       xlink:href="../../../../books/heroisprimos-intro-matematica/capa-01.png"
+       id="image1"
+       x="168.83813"
+       y="-18.00016"
+       style="stroke-width:2.38263"
+       clip-path="url(#clipPath3)"
+       transform="matrix(0.6662865,0,0,0.6662865,-116.60334,-42.917863)" />
+    <g
+       id="g4"
+       transform="matrix(0.46562404,0,0,0.46130049,12.906196,-45.035684)"
+       style="stroke-width:0.685069;stroke-dasharray:none">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.14919px;font-family:Bungee;-inkscape-font-specification:'Bungee, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0.685069;stroke-dasharray:none"
+         x="105.89456"
+         y="113.96264"
+         id="text612-2"><tspan
+           sodipodi:role="line"
+           id="tspan17"
+           x="105.89456"
+           y="113.96264"
+           style="stroke-width:0.685069;stroke-dasharray:none">P  e  q  u  e  n  o  s</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Bungee;-inkscape-font-specification:'Bungee, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0.685069;stroke-dasharray:none"
+         x="117.50778"
+         y="128.76001"
+         id="text612"><tspan
+           sodipodi:role="line"
+           id="tspan43937"
+           x="117.50778"
+           y="128.76001"
+           style="stroke-width:0.685069;stroke-dasharray:none">H e r ó i s</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Bungee;-inkscape-font-specification:'Bungee, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0.685069;stroke-dasharray:none"
+         x="122.95563"
+         y="141.52663"
+         id="text612-3"><tspan
+           sodipodi:role="line"
+           id="tspan43935"
+           x="122.95563"
+           y="141.52663"
+           style="stroke-width:0.685069;stroke-dasharray:none">P r i m o s</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.374774"
+       x="136.11485"
+       y="211.36258"
+       id="text612-2-6"><tspan
+         sodipodi:role="line"
+         id="tspan683-7"
+         x="136.11485"
+         y="211.36258">Leonardo Araújo</tspan></text>
+  </g>
+</svg>

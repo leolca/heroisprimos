@@ -6,11 +6,11 @@ intro: |
   Conheça nossas edições publicadas. Cada aventura apresenta conceitos STEM reais integrados à narrativa, com atividades práticas e desafios para os leitores.
 comics:
   - title: "Tirinhas"
-    subtitle: ""
+    subtitle: "Pequenas histórias, grandes descobertas"
     image: tirinhas.webp
     description: |
-      Tirinhas curtas que apresentam conceitos científicos, exploram ideias curiosas e despertam a vontade de saber mais. Algumas também são um convite para continuar a descoberta nos textos publicados no Substack.
-    tags: [HQs, Tirinhas, STEM]
+      Tirinhas curtas que apresentam conceitos científicos, exploram ideias curiosas e despertam a vontade de descobrir mais sobre o mundo ao nosso redor. Algumas também são um convite para continuar a descoberta nos textos publicados no Substack.
+    tags: [HQs, Quadrinhos, Tirinhas, STEM]
     embed: |
       <iframe src="https://d5e6cc4224ba4fafa96c3b819525f7ff.elf.site/"
               width="100%"
@@ -24,21 +24,21 @@ comics:
       - {text: "X",         icon: "x-twitter", url: "https://x.com/heroisprimos"}
       - {text: "Webtoons",  icon: "book-open", url: "https://www.webtoons.com/en/canvas/herois-primos-em-tirinhas-pt-br/list?title_no=1170111"}
       - {text: "Funktoons", icon: "globe",     url: "https://funktoon.com/painel/series/episodios/herois-primos-em-tirinhas"}
-  - title: "Edição #2: A Conjectura dos Gêmeos"
-    subtitle: "Próxima aventura — Primos gêmeos e realidades paralelas"
-    image: comic-ed2-coming.jpg
+  - title: "Pequenos Heróis Primos"
+    subtitle: "Aprender, explorar, descobrir!"
+    image: pequenos.webp
     description: |
-      Os heróis chegam a **Primópolis**, cidade construída sobre a Hipótese de Riemann. Lá, primos gêmeos (p, p+2) funcionam como **portais** entre realidades paralelas.
-    tags: [Primos Gêmeos, Hipótese de Riemann, Multiverso]
-    url: "/quadrinhos/edicao-2"
-    coming_soon: true
-  - title: "Edição #3: O Teorema do Caos"
-    subtitle: "Em produção — Sistemas dinâmicos e efeito borboleta"
-    image: comic-ed3-coming.jpg
+      Histórias curtas em quadrinhos, acompanhadas, quando necessário, de textos, desafios e atividades que convidam os pequenos a explorar conceitos, exercitar o raciocínio e aprender de forma divertida.
+    tags: [HQs, Quadrinhos, Educação, STEM]
+    url: "https://www.webtoons.com/en/canvas/pequenos-her%C3%B3is-primos-pt-br-prime-heroes-kids/list?title_no=1161097"
+    coming_soon: false
+  - title: "Heróis Primos"
+    subtitle: "A Linguagem Oculta dos Números"
+    image: livro1.webp
     description: |
-      Uma pequena mudança no passado cria um **efeito borboleta** catastrófico. Os heróis precisam navegar pelo **espaço de fases** do caos para restaurar a linha do tempo.
-    tags: [Teoria do Caos, Efeito Borboleta, Equações Diferenciais]
-    url: "/quadrinhos/edicao-3"
+      A matemática está nas mensagens que enviamos, na música que ouvimos, nas imagens que vemos e nos padrões da natureza. Em *Heróis Primos: A Linguagem Oculta dos Números*, histórias em quadrinhos abrem caminho para explorar as conexões surpreendentes entre matemática, computação, criptografia, lógica, probabilidade, caos, música e arte. Uma jornada por ideias e descobertas que revela como os números ajudam a compreender o mundo — e como a realidade pode ser ainda mais fantástica do que imaginamos.
+    tags: [Matemática, STEM, Computação, Criptografia, Quadrinhos, HQs]
+    url: ""
     coming_soon: true
 
 ---
