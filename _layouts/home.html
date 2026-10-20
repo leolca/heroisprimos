@@ -6,6 +6,7 @@ title: Home
 <!-- HERO BANNER -->
 {% if page.hero_image %}
 <div class="hero-banner" style="background-image: url('{{ site.github.url }}/assets/img/{{ page.hero_image }}');">
+  {% if page.hero_content %}
   <div class="hero-content">
     <h1>{{ site.title }}</h1>
     <p>{{ site.description }}</p>
@@ -13,6 +14,7 @@ title: Home
     <a href="{{ page.hero_cta_url }}" class="btn">{{ page.hero_cta_text }}</a>
     {% endif %}
   </div>
+  {% endif %}
 </div>
 {% endif %}
 
@@ -24,11 +26,12 @@ title: Home
 <!-- FEATURES / SECTIONS -->
 {% if page.features %}
 <div class="features-grid">
+{% assign fa_brands = "github,instagram,twitter,x-twitter,facebook,linkedin,youtube,discord,twitch,medium,tiktok,whatsapp,telegram,threads" | split: "," %}
   {% for feature in page.features %}
   <article class="feature-card">
     {% if feature.icon %}
     <div class="feature-icon">
-      <i class="fa fa-{{ feature.icon }}" aria-hidden="true"></i>
+      <i class="{% if fa_brands contains feature.icon %}fa-brands{% else %}fa-solid{% endif %} fa-{{ feature.icon }}" aria-hidden="true"></i>
     </div>
     {% endif %}
     <h3>{{ feature.title }}</h3>

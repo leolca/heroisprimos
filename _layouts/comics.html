@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+{% if page.intro %}
+<div class="page-intro" markdown="1">
+{{ page.intro }}
+</div>
+{% endif %}
+
+{% if page.comics %}
+<div class="comics-grid">
+  {% for comic in page.comics %}
+  <article class="comic-card{% if comic.coming_soon %} coming-soon{% endif %}">
+    {% if comic.coming_soon %}
+    <span class="comic-badge">Em Breve</span>
+    {% endif %}
+    {% if comic.image %}
+    <div class="comic-thumbnail">
+      <img src="{{ site.github.url }}/assets/img/{{ comic.image }}" alt="{{ comic.title }}" loading="lazy">
+    </div>
+    {% endif %}
+    <div class="comic-info">
+      <h3 class="comic-title">{{ comic.title }}</h3>
+      {% if comic.subtitle %}
+      <p class="comic-subtitle">{{ comic.subtitle }}</p>
+      {% endif %}
+      {% if comic.description %}
+      <p class="comic-description" markdown="1">{{ comic.description }}</p>
+      {% endif %}
+      {% if comic.embed %}
+      <div class="comic-embed">
+        {{ comic.embed }}
+      </div>
+      {% endif %}
+      <div class="comic-meta">
+        {% if comic.tags %}
+        <div class="comic-tags">
+          {% for tag in comic.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% if comic.links %}
+      <div class="comic-links">
+        {% assign fa_brands = "github,instagram,twitter,x-twitter,facebook,linkedin,youtube,discord,twitch,medium,tiktok,whatsapp,telegram,threads" | split: "," %}
+        {% for link in comic.links %}
+        <a href="{{ link.url }}" class="comic-link" target="_blank" rel="noopener">
+          <i class="{% if fa_brands contains link.icon %}fa-brands{% else %}fa-solid{% endif %} fa-{{ link.icon }}" aria-hidden="true"></i>
+          {{ link.text }}
+        </a>
+        {% endfor %}
+      </div>
+      {% elsif comic.url %}
+      <a href="{{ comic.url }}" class="comic-link">Ler agora <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if page.cta %}
+<section class="cta-section" markdown="1">
+{{ page.cta }}
+</section>
+{% endif %}

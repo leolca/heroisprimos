@@ -7,13 +7,9 @@ paginate:            5
 markdown:            kramdown
 highlighter:         rouge
 permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "Heróis Primos"
 description:	       "Projeto STEM que ensina conceitos de Ciências, Tecnologia, Engenharia e Matemática por meio de histórias em quadrinhos"
-author:              "Equipe Heróis Primos"
-
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
+author:              "Leonardo Araújo"

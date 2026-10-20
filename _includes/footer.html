@@ -1,6 +1,9 @@
+{% assign fa_brands = "github,instagram,twitter,x-twitter,facebook,linkedin,youtube,discord,twitch,medium,tiktok,whatsapp,telegram,threads" | split: "," %}
 <footer class="footer">
   {% for item in site.data.settings.social %}
-    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+    <a href="{{ item.link }}" class="menu-link" target="_blank" rel="noopener">
+      <i class="{% if fa_brands contains item.icon %}fa-brands{% else %}fa-solid{% endif %} fa-{{ item.icon }}" aria-hidden="true"></i>
+    </a>
   {% endfor %}
   <div class="footer-description"><a href="{{ site.github.url }}/">{{ site.title }} | {{ site.description }} by {{ site.author }}</a></div>
 </footer>

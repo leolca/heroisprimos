@@ -6,39 +6,19 @@ permalink: /about
 
 # Sobre o Heróis Primos
 
-**Heróis Primos** é um projeto inovador de educação STEM (Ciência, Tecnologia, Engenharia e Matemática) que ensina conceitos complexos através de histórias em quadrinhos envolventes e educativas.
+**Heróis Primos** é um projeto de educação STEM (Ciências, Tecnologia, Engenharia e Matemática) que ensina conceitos científicos por meio de **histórias em quadrinhos**. Acreditamos que aprendizado deve ser uma aventura: unimos conhecimento científico rigoroso a narrativas visuais que estimulam **pensamento crítico, criatividade e colaboração**.
 
-## Nossa Missão
+## Como funciona
 
-Acreditamos que o aprendizado deve ser uma aventura. Ao unir conhecimento científico rigoroso com narrativas visuais cativantes, tornamos a aprendizagem mais envolvente e estimulamos:
+O Heróis Primos reúne diferentes formas de explorar as Ciências, a Tecnologia, a Engenharia e a Matemática: tirinhas que despertam a curiosidade, histórias em quadrinhos curtas, livros que apresentam conceitos e livros de exercícios que convidam a aprender na prática. O projeto também conta com o podcast **Ciência em Modulação**, disponível em diversas plataformas de áudio.
 
-- 🧠 **Pensamento Crítico** - Resolução de problemas através de desafios narrativos
-- 🎨 **Criatividade** - Exploração de conceitos científicos de forma imaginativa
-- 💬 **Comunicação** - Discussão e compartilhamento de descobertas
-- 🤝 **Colaboração** - Trabalho em equipe para superar obstáculos
 
-## Como Funciona
+## Quem somos
 
-Cada edição dos **Heróis Primos** apresenta:
+**Leonardo Araújo** — Professor, Engenheiro Eletricista e escritor apaixonado por quadrinhos. Fundador e diretor criativo do projeto. Acredita em conhecimento livre e acessível para todos. [GitHub](https://github.com/leolca)
 
-1. **Uma história original** com personagens carismáticos enfrentando desafios reais
-2. **Conceitos STEM integrados** naturalmente na narrativa
-3. **Atividades práticas** para aplicar o aprendizado
-4. **Glossário visual** para reforçar vocabulário técnico
-5. **Referências para aprofundamento** para curiosos de todas as idades
-
-## Para Quem É
-
-- **Estudantes** do ensino fundamental e médio
-- **Professores** buscando recursos didáticos inovadores
-- **Pais e responsáveis** que querem inspirar curiosidade científica
-- **Bibliotecas e escolas** enriquecendo seus acervos
-- **Qualquer pessoa** apaixonada por quadrinhos e ciência
-
-## Nossa História
-
-O projeto nasceu da paixão por quadrinhos e da crença de que a ciência não precisa ser intimidadora. Desde nosso lançamento, temos levado a magia do aprendizado STEM para milhares de jovens leitores, mostrando que cada um pode ser um herói da ciência.
+**Agentes de IA** — Colaboram desde o *brainstorm* de ideias, revisão e melhoria de texto, até a elaboração de ilustrações e a automatização de processos na produção gráfica.
 
 ---
 
-*Quer saber mais? [Entre em contato conosco]({{ site.github.url }}/contact) ou explore nossos [quadrinhos]({{ site.github.url }}/quadrinhos)!*
+*Quer colaborar ou tem alguma dúvida? [Entre em contato]({{ site.github.url }}/contact)!*

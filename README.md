@@ -6,7 +6,7 @@ Este é o repositório do site oficial do **Heróis Primos**, construído com [J
 
 ## 🌐 Site Online
 
-**https://leoca.github.io/heroisprimos/**
+**https://leolca.github.io/heroisprimos/**
 
 ## 📁 Estrutura do Projeto
 
@@ -70,7 +70,7 @@ heroisprimos/
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/leoca/heroisprimos.git
+git clone https://github.com/leolca/heroisprimos.git
 cd heroisprimos
 
 # 2. Instale as dependências
@@ -159,7 +159,7 @@ menu:
 ```yaml
 title: "Heróis Primos"
 description: "Descrição para SEO"
-author: "Equipe Heróis Primos"
+author: "Leonardo Araújo"
 ```
 
 ### Tema (_data/settings.yml)
@@ -343,10 +343,9 @@ O tema original **Millennial** é de [Paul Le](https://github.com/LeNPaul) sob l
 
 ## 📞 Contato
 
-- **Site**: https://leoca.github.io/heroisprimos/
-- **GitHub**: https://github.com/leoca/heroisprimos
-- **Email**: contato@heroisprimos.com
-- **Issues**: https://github.com/leoca/heroisprimos/issues
+- **Site**: https://leolca.github.io/heroisprimos/
+- **GitHub**: https://github.com/leolca/heroisprimos
+- **Issues**: https://github.com/leolca/heroisprimos/issues
 
 ---
 
