@@ -8,10 +8,10 @@
         {% else %}
           <li>
             <h3>
-              <a href="{{ site.baseurl }}{{ mypost.url }}">
+              <a href="{{ site.baseurl }}{% if site.baseurl != '' %}/{% endif %}{{ mypost.url }}">
                 <div class="related-thumbnail">
                   {% if mypost.image %}
-                    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ mypost.image }}">
+                    <img src="{{ site.baseurl }}{% if site.baseurl != '' %}/{% endif %}assets/img/{{ mypost.image }}">
                   {% endif %}
                 </div>
                 <div class="related-title">

@@ -17,7 +17,7 @@ layout: default
     {% endif %}
     {% if comic.image %}
     <div class="comic-thumbnail">
-      <img src="{{ site.baseurl }}/assets/img/{{ comic.image }}" alt="{{ comic.title }}" loading="lazy">
+      <img src="{{ site.baseurl }}{% if site.baseurl != '' %}/{% endif %}assets/img/{{ comic.image }}" alt="{{ comic.title }}" loading="lazy">
     </div>
     {% endif %}
     <div class="comic-info">
