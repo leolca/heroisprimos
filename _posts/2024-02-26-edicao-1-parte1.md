@@ -216,4 +216,4 @@ Os γ são **valores próprios** de um operador hermítico conjectural (Hilbert-
 - **Edição**: Maria Silva
 - **Direção**: Leonardo Carvalho & Maria Silva
 
-*Heróis Primos é um projeto aberto. Quer contribuir para a Edição #3? [GitHub Issues](https://github.com/leoca/heroisprimos/issues) está aceitando propostas!*
+*Heróis Primos é um projeto aberto. Quer contribuir para a Edição #3? [GitHub Issues](https://github.com/leolca/heroisprimos/issues) está aceitando propostas!*
