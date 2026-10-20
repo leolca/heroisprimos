@@ -90,4 +90,4 @@ FIM
 
 **Próximo**: Vetor, o mestre da física e movimento! 🏃‍♂️⚡
 
-*Qual conceito de computação você gostaria de ver a Pixel explicar na próxima aventura? [Comente aqui]({{ site.github.url }}/contact) ou marque @heroisprimos nas redes!*
+*Qual conceito de computação você gostaria de ver a Pixel explicar na próxima aventura? [Comente aqui]({{ site.baseurl }}/contact) ou marque @heroisprimos nas redes!*

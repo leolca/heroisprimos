@@ -177,6 +177,6 @@ A partir de agora, posts vão alternar entre:
 - 🛠️ **Tutoriais** (atividades práticas, código, experimentos)
 - 🎤 **Entrevistas** (cientistas reais, educadores, leitores)
 
-*Qual herói você mais se identificou? Qual conceito quer ver explorado? [Conta pra gente!]({{ site.github.url }}/contact)* 💬
+*Qual herói você mais se identificou? Qual conceito quer ver explorado? [Conta pra gente!]({{ site.baseurl }}/contact)* 💬
 
 **Próxima aventura**: "O Mistério do Código Primordial" — Edição #1 completa com atividades! 📖✨

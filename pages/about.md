@@ -21,4 +21,4 @@ O Heróis Primos reúne diferentes formas de explorar as Ciências, a Tecnologia
 
 ---
 
-*Quer colaborar ou tem alguma dúvida? [Entre em contato]({{ site.github.url }}/contact)!*
+*Quer colaborar ou tem alguma dúvida? [Entre em contato]({{ site.baseurl }}/contact)!*

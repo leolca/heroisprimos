@@ -145,4 +145,4 @@ Na **Edição #4**, eles enfrentam um **patógeno sintético** que reescreve epi
 
 *Se você pudesse editar um gene seu, qual seria? (Meu palpite: *DEC2* para precisar de menos sono — mutação natural existe!)* 😴
 
-**[Próximo STEM]: Função e o Poder das Funções Matemáticas!]({{ site.github.url }}{% post_url 2024-02-19-funcao-matematica %})** 📊
+**[Próximo STEM]: Função e o Poder das Funções Matemáticas!]({{ site.baseurl }}{% post_url 2024-02-19-funcao-matematica %})** 📊

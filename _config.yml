@@ -11,5 +11,9 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "Heróis Primos"
+# Site URL (GitHub Pages: https://<user>.github.io/<repo>)
+url:                 "https://leoca.github.io"
+baseurl:             ""
+
 description:	       "Projeto STEM que ensina conceitos de Ciências, Tecnologia, Engenharia e Matemática por meio de histórias em quadrinhos"
 author:              "Leonardo Araújo"

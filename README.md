@@ -150,7 +150,7 @@ menu:
 
 1. Coloque arquivos em `assets/img/`
 2. Referencie nos posts: `image: meu-arquivo.jpg`
-3. No Markdown: `![Alt text]({{ site.github.url }}/assets/img/meu-arquivo.jpg)`
+3. No Markdown: `![Alt text]({{ site.baseurl }}/assets/img/meu-arquivo.jpg)`
 
 ## ⚙️ Configuração
 

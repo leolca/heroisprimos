@@ -124,4 +124,4 @@ Vetor é o **piloto** da nave *Integral* (sim, nome nerd intencional). Suas luva
 
 **Próximo**: Quark, a mestra da matéria e energia! ⚛️
 
-*Qual lei de Newton você acha mais contra-intuitiva? A 3ª lei (ação/reação) costuma confundir — "se eu empurro a parede e ela me empurra de volta com mesma força, por que eu não me movo?" [Resposta nos comentários!]({{ site.github.url }}/contact)* 🤔
+*Qual lei de Newton você acha mais contra-intuitiva? A 3ª lei (ação/reação) costuma confundir — "se eu empurro a parede e ela me empurra de volta com mesma força, por que eu não me movo?" [Resposta nos comentários!]({{ site.baseurl }}/contact)* 🤔

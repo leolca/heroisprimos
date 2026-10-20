@@ -62,4 +62,4 @@ O Heróis Primos é um projeto **colaborativo e de código aberto**. Acreditamos
 
 **Próximo post**: Apresentaremos cada um dos nossos quatro heróis e seus "superpoderes" científicos!
 
-*Tem sugestões, dúvidas ou quer colaborar? [Entre em contato]({{ site.github.url }}/contact) — adoramos conversar com fellow science adventurers!* 🧪📖
+*Tem sugestões, dúvidas ou quer colaborar? [Entre em contato]({{ site.baseurl }}/contact) — adoramos conversar com fellow science adventurers!* 🧪📖

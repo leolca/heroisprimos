@@ -141,4 +141,4 @@ Pixel usa o **Crivo de Eratóstenes** para gerar chaves, Vetor calcula a **densi
 
 *Qual seu número primo favorito? O meu é 17 — primo de Fermat, idade da maioridade em muitos países, e número atômico do Cloro!* 🧪
 
-**[Próximo STEM**: Vetor e as Leis de Newton — quando a física encontra os quadrinhos!]({{ site.github.url }}{% post_url 2024-02-05-vetor-leis-newton %})**
+**[Próximo STEM**: Vetor e as Leis de Newton — quando a física encontra os quadrinhos!]({{ site.baseurl }}{% post_url 2024-02-05-vetor-leis-newton %})**

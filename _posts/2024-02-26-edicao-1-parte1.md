@@ -203,7 +203,7 @@ Os γ são **valores próprios** de um operador hermítico conjectural (Hilbert-
 
 **Edição #2**: "A Conjectura dos Gêmeos" — Os heróis chegam a **Primópolis**, cidade construída sobre a **Hipótese de Riemann**. Lá, descobrem que **primos gêmeos** (p, p+2) são **portais** entre realidades paralelas...
 
-*Qual desafio você resolveu? Qual herói teve a melhor sacada? [Compartilhe suas soluções!]({{ site.github.url }}/contact)* 🧩
+*Qual desafio você resolveu? Qual herói teve a melhor sacada? [Compartilhe suas soluções!]({{ site.baseurl }}/contact)* 🧩
 
 ---
 
