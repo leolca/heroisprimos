@@ -40,5 +40,13 @@ comics:
     tags: [Matemática, STEM, Computação, Criptografia, Quadrinhos, HQs]
     url: ""
     coming_soon: true
+  - title: "Laboratório dos Pequenos Heróis Primos"
+    subtitle: "Grandes descobertas começam com pequenos passos."
+    image: labpeqherois.webp
+    description: |
+      Uma coleção de histórias em quadrinhos, explicações e atividades que convida as crianças a explorar o universo da Matemática. Dos primeiros contatos com os números às operações e aos novos desafios, cada livro combina curiosidade, raciocínio e prática para transformar o aprendizado em uma aventura.
+    tags: [HQs, Quadrinhos, Educação, STEM]
+    url: ""
+    coming_soon: true
 
 ---
